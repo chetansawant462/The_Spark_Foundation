@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Banking Website</title>
+	<title>Banking - Website</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type ="text/css" href="css/style">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <style>
   	.align1{
-	border: 1px solid black;
-  background-color: lightblue;
+	border: 2px solid black;
+  background-color: lightgreen;
   margin-top: 100px;
   margin-right: 30px;
   margin-bottom: 50px;
   margin-left: 30px;
 }
+
   </style>
 </head>
 <body>
+
   <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" >Banking System</a>
+      <a class="navbar-brand" >Banking-System</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="index.php">Homepage</a></li>
-      <li><a href="details.php">View all customers</a></li>
+      <li><a href="details.php">View customers</a></li>
     </ul>
   </div>
-</nav>
+</nav><br>
+
+<h1 class="text-center" style="background-color: lightblue; border:5px solid black; color: black">
+Created by ::)) Chetan Vasant Sawant</h1>
 
 <div class="align1">
-<h1 class="text-center ">Welcome to the banking website</h1>
-<h2 class="text-center">Steps to transfer money between two customers:</h2>
+<h1 class="text-center ">*************Welcome to My banking website*************</h1>
+<h2 class="text-center">> Steps to transfer money between two customers :)</h2>
 <p class="text-center">1. Go to 'view all customers'</p>
 <p class="text-center">2. you can view the details of the customers</p>
 <p class="text-center">3. At the bottom of the page click the tranfer button for transferring amount</p>
@@ -43,7 +48,6 @@
 
 </div>
 
-<h3 class="text-center">Created by Pranav P. N</h3>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
